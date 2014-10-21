@@ -1,4 +1,4 @@
-Import-Module ActiveDirectory
+﻿Import-Module ActiveDirectory
 
 # Set the default password
 # In the future, we'll want to generate a random password for each user, so this code will change
@@ -29,5 +29,5 @@ function ResetPasswords ($users)
 # This funciton will retrieve
 function GetUserList ()
 {
-    
+    This is a Test NOT REAL
 }
