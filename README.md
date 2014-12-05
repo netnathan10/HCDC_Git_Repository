@@ -1,4 +1,4 @@
 password_changing_powershell
 ============================
 
-This will be a short script that will be used to change all users passwords in active directory for PRCCDC
+This repository stores anything that might be useful for CCDC 2015, this can include useful links, scripts, etc.
