@@ -1,0 +1,8 @@
+
+*.cache
+
+*.log
+
+*.log
+
+sample_rails_app/pizza_store_project/log/development.log
