@@ -8,3 +8,5 @@
 sample_rails_app/pizza_store_project/log/development.log
 
 sample_rails_app/pizza_store_project/log/development.log
+
+*.log
