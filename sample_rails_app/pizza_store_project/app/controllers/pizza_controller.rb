@@ -1,6 +1,10 @@
 class PizzaController < ApplicationController
 
-  def create_order
+  def new
+    @pizza = Pizza.new
+  end
+
+  def create
     @pizza = Pizza.new(params[:pizza])
     @toppings_array = @pizza.toppings.split(',')
     @pizza.price = @pizza.calculate_price
