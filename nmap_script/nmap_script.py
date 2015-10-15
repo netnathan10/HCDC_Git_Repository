@@ -25,5 +25,6 @@ while True:
             lport = nm[host][proto].keys()
             lport.sort()
             for port in lport:
-                print ('port : %s\tstate : %s' % (port, nm[host][proto][port]['state']))
+                if nm[host][proto][port]['state'] == 'open':
+                    print ('port : %s\tstate : %s' % (port, nm[host][proto][port]['state']))
     time.sleep(minutes)
