@@ -1,9 +1,0 @@
-<h1>Please Submit your order</h1>
-
-<%= simple_form_for @pizza, :url => { :action => "create" } do |f| %>
-  <%= f.input :sauce, as: :radio_buttons, collection: ['Red' ,'White'] %>
-  <%= f.input :crust, as: :radio_buttons, collection: ['Regular' ,'Thin'] %>
-  <%= f.input :toppings, as: :check_boxes, collection: ['cheese', 'olives', 'sausage', 'pepperoni', 'anchovies'] %>
-  <%= f.input :delivery,     as: :radio_buttons %>
-  <%= f.button :submit %>
-<% end %>
